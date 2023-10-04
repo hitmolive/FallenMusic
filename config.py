@@ -15,6 +15,9 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
+# Chat id of a group for logging bot's activities
+LOGGER_ID = int(getenv("LOGGER_ID", None))
+
 OWNER_ID = int(getenv("OWNER_ID"))
 
 PING_IMG = getenv("PING_IMG", "https://te.legra.ph/file/6f99c49bdb4679acad717.jpg")
