@@ -22,6 +22,7 @@ OWNER_ID = int(getenv("OWNER_ID"))
 
 PING_IMG = getenv("PING_IMG", "https://te.legra.ph/file/6f99c49bdb4679acad717.jpg")
 START_IMG = getenv("START_IMG", "https://te.legra.ph/file/f8ba75bdbb9931cbc8229.jpg")
+YOUTUBE_IMG_URL = getenv("https://te.legra.ph/file/6298d377ad3eb46711644.jpg")
 
 SESSION = getenv("SESSION", None)
 
