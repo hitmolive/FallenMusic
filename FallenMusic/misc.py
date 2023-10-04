@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from fallenMusic.core.mongo import mongodb
+from FallenMusic.core.mongo import mongodb
 
 from .logging import LOGGER
 
